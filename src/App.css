@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+.Fancy-font {
+  font-family: 'Amatic SC', cursive;
+}
+
+body {
+  background-color: #191919;
+  color: '#ffffff'
+}
+
+.fill-white {
+  fill: "#ffffff"
+}
+
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
