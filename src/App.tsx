@@ -8,7 +8,7 @@ import PerfectScrollbar from 'react-perfect-scrollbar'
 
 const App: React.FC = () => (
   <div>
-    <div className="fixed top-0 w-full">
+    <div className="fixed top-0 w-full z-10">
       <Nav></Nav>
     </div>
     <div className="hidden sm:inline-block overflow-y-scroll h-full fixed z-10 left-0 mt-14 bg-yt-gray">
